@@ -1,0 +1,25 @@
+### Step 10: .gitignore
+```
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+venv/
+env/
+myenv/
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
