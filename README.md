@@ -39,3 +39,38 @@ A Django REST Framework backend for managing student study materials with JWT au
 - POST `/api/auth/reset-password`
 
 
+<!-- Flashcard Endpoints
+
+POST {{base_url}}/api/flashcards/
+GET {{base_url}}/api/flashcards/
+GET {{base_url}}/api/flashcards/{id}/
+PUT {{base_url}}/api/flashcards/{id}/
+PATCH {{base_url}}/api/flashcards/{id}/
+DELETE {{base_url}}/api/flashcards/{id}/
+
+Quiz Endpoints
+
+POST {{base_url}}/api/quizzes/
+GET {{base_url}}/api/quizzes/
+GET {{base_url}}/api/quizzes/{id}/
+PUT {{base_url}}/api/quizzes/{id}/
+PATCH {{base_url}}/api/quizzes/{id}/
+DELETE {{base_url}}/api/quizzes/{id}/
+
+Matching Items Endpoints
+
+POST {{base_url}}/api/matching-items/
+GET {{base_url}}/api/matching-items/
+GET {{base_url}}/api/matching-items/{id}/
+PUT {{base_url}}/api/matching-items/{id}/
+PATCH {{base_url}}/api/matching-items/{id}/
+DELETE {{base_url}}/api/matching-items/{id}/
+
+Notes Endpoints
+
+POST {{base_url}}/api/notes/
+GET {{base_url}}/api/notes/
+GET {{base_url}}/api/notes/{id}/
+PUT {{base_url}}/api/notes/{id}/
+PATCH {{base_url}}/api/notes/{id}/
+DELETE {{base_url}}/api/notes/{id}/ -->
