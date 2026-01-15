@@ -120,8 +120,8 @@ class ForgotPasswordView(APIView):
 
                 return Response({
                     "otp": otp,
-                    "success": False,
-                    "message": "Failed to send OTP"
+                    # "success": False,
+                    # "message": "Failed to send OTP"
                 }, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
             except CustomUser.DoesNotExist:

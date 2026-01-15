@@ -14,6 +14,7 @@ myenv/
 *.log
 db.sqlite3
 media/
+static/
 
 # IDE
 .vscode/
